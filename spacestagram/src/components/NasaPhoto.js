@@ -14,7 +14,7 @@ const NasaPhoto = ({ photo }) => {
   };
 
   return (
-    <div class="card bg-light">
+    <div className="card bg-light">
       <img
         className="card-img-top img-thumbnail"
         src={photo.img_src}
