@@ -1,6 +1,18 @@
 import React from "react";
+import { useState } from "react";
 
-const NasaPhoto = ({ photo, handleLike }) => {
+const NasaPhoto = ({ photo }) => {
+
+  const [isLiked, updateLike] = useState(false);
+
+  const handleLike = () => {
+    if(isLiked) {
+      return updateLike(false);
+    } else {
+      return updateLike(true);
+    }
+  };
+
   return (
     <div class="card bg-light">
       <img
@@ -13,15 +25,17 @@ const NasaPhoto = ({ photo, handleLike }) => {
           photo.rover.name + " rover - " + photo.camera.full_name
         }`}</h5>
         <h6 className="card-date">{photo.earth_date}</h6>
+      </div>
+      <div>
         <button
           type="button"
           className="btn btn-dark"
-          onClick={(e) => handleLike(photo)}
+          onClick={(e) => handleLike()}
         >
-          {/*  disabled={!isLiked} */}
-          🤍
+        { isLiked ? "❤️" : "🤍" }
         </button>
       </div>
+      <br></br>
     </div>
   );
 };
