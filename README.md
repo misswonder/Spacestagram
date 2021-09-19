@@ -1,8 +1,8 @@
 # Spacestagram
 
-### A frontend web application created with React.js by using NASA's image API. 
+## A frontend web application created with React.js by using NASA's image API. 
 
-Key Features:
+### Key Features:
 - API call
 - Loading effect
 - View requested NASA images with certain details
