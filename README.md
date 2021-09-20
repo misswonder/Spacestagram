@@ -1,6 +1,6 @@
 # Spacestagram
 
-### A frontend web application created with React.js by using NASA's image API. 
+## A frontend web application created with React.js by using NASA's image API. 
 
 
 ### Hosted Site:
@@ -34,4 +34,3 @@
    ```sh
    yarn start (defaulted port: http://localhost:3000)
    ```
-   
