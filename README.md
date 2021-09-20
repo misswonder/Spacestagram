@@ -11,4 +11,4 @@ Key Features:
 Built With
 
 - [React](https://reactjs.org/)
-- [React Bootstrap](https://react-bootstrap.github.io/)
+- [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
