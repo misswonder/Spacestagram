@@ -7,3 +7,8 @@ Key Features:
 - Loading effect
 - View requested NASA images with certain details
 - Option to like or unlike selected NASA images
+
+Built With
+
+- [React](https://reactjs.org/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
