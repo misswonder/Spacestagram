@@ -6,4 +6,4 @@ Key Features:
 - API call
 - Loading effect
 - View requested NASA images with certain details
-- Option to like or unlike a selected NASA image
+- Option to like or unlike selected NASA images
